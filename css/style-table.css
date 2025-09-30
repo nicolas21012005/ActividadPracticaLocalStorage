@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* === Estilos globales === */
+body {
+  background-color: #161616;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Sección principal */
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: #b80000;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* === Estilos de la tabla === */
+#tabla-cursos {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #202020;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Encabezado */
+#tabla-cursos thead {
+  background-color: #b80000;
+  color: #fff;
+  font-weight: bold;
+}
+
+#tabla-cursos thead td {
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Filas */
+#tabla-cursos tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+/* Alternancia de filas */
+#tabla-cursos tbody tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+#tabla-cursos tbody tr:nth-child(odd) {
+  background-color: #1e1e1e;
+}
+
+/* Hover sobre fila */
+#tabla-cursos tbody tr:hover {
+  background-color: #3a3a3a;
+  transition: background-color 0.3s ease;
+}

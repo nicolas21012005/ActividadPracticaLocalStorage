@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage - Cursos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestión De Cursos</h1>
+
+        <!-- Formulario -->
+        <div class="card">
+            <form id="formulario-curso">
+
+                <input type="text" id="cursos" placeholder="Nombre Del Curso">
+
+                <input type="text" id="profesor" placeholder="Nombre Del Profesor">
+
+                <input type="text" id="precio" placeholder="Precio Del Curso">
+
+                <input type="text" id="ciudad" placeholder="Nombre De La Ciudad">
+
+                <input type="text" id="cupo" placeholder="Cupo Del Curso">
+
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+
+        <!-- Mensaje -->
+        <h2 id="mensaje-curso">
+            Aquí se mostrará el curso creado
+        </h2>
+
+        <!-- Botón eliminar -->
+        <div>
+            <button id="delete">Eliminar Curso</button>
+        </div>
+
+        <!-- Link -->
+        <div>
+            <a href="cursos.html" class="btn">Ver Cursos</a>
+        </div>
+    </div>
+
+    <script src="main-arreglo-objetos.js"></script>
+
+</body>
+
+</html>
